@@ -1,9 +1,13 @@
 {
   "name": "celestial-cookie-consent",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "wp-scripts build",
+    "build": "npm run build:block && npm run build:backend",
+    "build:block": "wp-scripts build --experimental-modules --source-path=src/block --output-path=build/block",
+    "build:backend": "wp-scripts build --source-path=src/backend --output-path=build/backend",
+    "start:block": "wp-scripts start --experimental-modules --source-path=src/block --output-path=build/block",
+    "start:backend": "wp-scripts start --source-path=src/backend --output-path=build/backend",
     "env": "wp-env"
   },
   "devDependencies": {

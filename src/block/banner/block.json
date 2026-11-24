@@ -1,0 +1,40 @@
+{
+  "apiVersion": 3,
+  "name": "celestial-cookie-consent/banner",
+  "title": "Cookie Consent",
+  "category": "widgets",
+  "icon": "privacy",
+  "description": "Displays the site's cookie consent banner.",
+  "textdomain": "celestial-cookie-consent",
+  "attributes": {
+    "position": {
+      "type": "string",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left"
+    }
+  },
+  "supports": {
+    "html": false,
+    "multiple": false,
+    "interactivity": true
+  },
+  "render": "file:./render.php",
+  "editorScript": "file:./index.js",
+  "style": [
+    "wp-block-button",
+    "wp-block-buttons",
+    "file:./style-index.css"
+  ],
+  "viewScriptModule": "file:./view.js",
+  "selectors": {
+    "color": ".wp-block-celestial-cookie-consent-banner > section, .wp-block-celestial-cookie-consent-banner > dialog, .wp-block-celestial-cookie-consent-banner.ccc-editor-preview",
+    "border": ".wp-block-celestial-cookie-consent-banner > section, .wp-block-celestial-cookie-consent-banner > dialog, .wp-block-celestial-cookie-consent-banner.ccc-editor-preview",
+    "shadow": ".wp-block-celestial-cookie-consent-banner > section, .wp-block-celestial-cookie-consent-banner > dialog, .wp-block-celestial-cookie-consent-banner.ccc-editor-preview",
+    "spacing": {
+      "padding": ".wp-block-celestial-cookie-consent-banner > section, .wp-block-celestial-cookie-consent-banner > dialog, .wp-block-celestial-cookie-consent-banner.ccc-editor-preview"
+    }
+  }
+}

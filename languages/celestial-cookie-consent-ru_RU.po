@@ -14,7 +14,7 @@ msgstr ""
 msgid "Accept all"
 msgstr "Принять все"
 
-#: src/index.js
+#: src/backend/components/ScriptsSettingsForm.js
 msgid "Add script"
 msgstr "Добавить скрипт"
 
@@ -22,7 +22,7 @@ msgstr "Добавить скрипт"
 msgid "Always active"
 msgstr "Всегда включены"
 
-#: src/index.js
+#: src/backend/components/BannerSettingsForm.js
 msgid "Banner message"
 msgstr "Текст баннера"
 
@@ -46,7 +46,7 @@ msgstr "Закрыть настройки"
 msgid "Cookie Consent"
 msgstr "Согласие на cookies"
 
-#: src/index.js
+#: src/backend/components/BannerSettingsForm.js
 msgid "Cookie banner"
 msgstr "Баннер cookies"
 
@@ -58,15 +58,15 @@ msgstr "Настройки cookies"
 msgid "Cookie settings"
 msgstr "Настройки cookies"
 
-#: src/index.js
+#: src/backend/hooks/useSettings.js
 msgid "Could not load settings."
 msgstr "Не удалось загрузить настройки."
 
-#: src/index.js
+#: src/backend/components/ScriptsSettingsForm.js
 msgid "Could not save scripts."
 msgstr "Не удалось сохранить скрипты."
 
-#: src/index.js
+#: src/backend/hooks/useSettings.js
 msgid "Could not save settings."
 msgstr "Не удалось сохранить настройки."
 
@@ -74,15 +74,15 @@ msgstr "Не удалось сохранить настройки."
 msgid "Customize"
 msgstr "Настроить"
 
-#: src/index.js
+#: src/backend/components/ScriptRow.js
 msgid "Description"
 msgstr "Описание"
 
-#: src/index.js
+#: src/backend/components/ScriptRow.js
 msgid "JavaScript code"
 msgstr "Код JavaScript"
 
-#: src/index.js
+#: src/backend/components/ScriptRow.js
 msgid "Name"
 msgstr "Название"
 
@@ -90,15 +90,15 @@ msgstr "Название"
 msgid "Necessary"
 msgstr "Необходимые cookies"
 
-#: src/index.js
+#: src/backend/components/ScriptRow.js
 msgid "New script"
 msgstr "Новый скрипт"
 
-#: src/index.js
+#: src/backend/components/ScriptsSettingsForm.js
 msgid "Optional scripts"
 msgstr "Необязательные скрипты"
 
-#: src/index.js
+#: src/backend/components/ScriptRow.js
 msgid "Paste JavaScript without HTML script tags. It runs after the visitor accepts optional cookies."
 msgstr "Вставьте JavaScript без тегов <script>. Код выполнится после согласия посетителя."
 
@@ -110,7 +110,7 @@ msgstr "Политика конфиденциальности"
 msgid "Reject all"
 msgstr "Отклонить все"
 
-#: src/index.js
+#: src/backend/components/ScriptRow.js
 msgid "Remove script"
 msgstr "Удалить скрипт"
 
@@ -122,19 +122,19 @@ msgstr "Сбросить согласие"
 msgid "Save preferences"
 msgstr "Сохранить выбор"
 
-#: src/index.js
+#: src/backend/components/ScriptsSettingsForm.js
 msgid "Save scripts"
 msgstr "Сохранить скрипты"
 
-#: src/index.js
+#: src/backend/components/BannerSettingsForm.js
 msgid "Save settings"
 msgstr "Сохранить настройки"
 
-#: src/index.js
+#: src/backend/components/ScriptsSettingsForm.js
 msgid "Scripts saved."
 msgstr "Скрипты сохранены."
 
-#: src/index.js
+#: src/backend/hooks/useSettings.js
 msgid "Settings saved."
 msgstr "Настройки сохранены."
 
@@ -149,3 +149,27 @@ msgstr "Ваш выбор cookies"
 #: celestial-cookie-consent.php
 msgid "You are not allowed to edit scripts."
 msgstr "У вас нет прав на редактирование скриптов."
+
+#: src/block/banner/index.js
+msgid "Position"
+msgstr "Положение"
+
+#: src/block/banner/index.js
+msgid "Bottom left"
+msgstr "Снизу слева"
+
+#: src/block/banner/index.js
+msgid "Bottom right"
+msgstr "Снизу справа"
+
+#: src/block/banner/index.js
+msgid "The live banner uses the text and scripts configured in Cookie Consent settings."
+msgstr "На сайте баннер использует текст и скрипты из настроек плагина."
+
+#: src/block/banner/block.json
+msgid "Displays the site's cookie consent banner."
+msgstr "Показывает баннер согласия на cookies."
+
+#: celestial-cookie-consent.php
+msgid "Could not change your cookie preferences. Check your browser settings and try again."
+msgstr "Не удалось изменить выбор cookies. Проверьте настройки браузера и попробуйте снова."

@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "styles": {
+    "blocks": {
+      "celestial-cookie-consent/banner": {
+        "css": "--ccc-switch-accent: #1764d8;",
+        "typography": {
+          "fontSize": "0.9375rem",
+          "lineHeight": "1.5"
+        },
+        "elements": {
+          "h2": {
+            "typography": {
+              "fontSize": "1.25rem",
+              "fontWeight": "700"
+            }
+          },
+          "h3": {
+            "typography": {
+              "fontSize": "1.125rem",
+              "fontWeight": "700"
+            }
+          }
+        },
+        "color": {
+          "background": "var(--wp--preset--color--base, Canvas)",
+          "text": "var(--wp--preset--color--contrast, CanvasText)"
+        },
+        "border": {
+          "color": "#d6d6d6",
+          "style": "solid",
+          "width": "1px",
+          "radius": "0.625rem"
+        },
+        "shadow": "0 0.5rem 1.75rem rgb(0 0 0 / 12%)",
+        "spacing": {
+          "padding": {
+            "top": "1.25rem",
+            "right": "1.25rem",
+            "bottom": "1.25rem",
+            "left": "1.25rem"
+          }
+        }
+      }
+    }
+  }
+}

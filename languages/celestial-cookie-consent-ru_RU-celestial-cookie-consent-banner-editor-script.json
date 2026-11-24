@@ -1,0 +1,39 @@
+{
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "lang": "ru_RU",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);"
+      },
+      "Cookie banner": [
+        "Баннер cookies"
+      ],
+      "Position": [
+        "Положение"
+      ],
+      "Bottom left": [
+        "Снизу слева"
+      ],
+      "Bottom right": [
+        "Снизу справа"
+      ],
+      "Your cookie choices": [
+        "Ваш выбор cookies"
+      ],
+      "The live banner uses the text and scripts configured in Cookie Consent settings.": [
+        "На сайте баннер использует текст и скрипты из настроек плагина."
+      ],
+      "Customize": [
+        "Настроить"
+      ],
+      "Reject all": [
+        "Отклонить все"
+      ],
+      "Accept all": [
+        "Принять все"
+      ]
+    }
+  }
+}
