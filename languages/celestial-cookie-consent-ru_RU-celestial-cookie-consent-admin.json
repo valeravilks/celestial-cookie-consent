@@ -1,0 +1,63 @@
+{
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "lang": "ru_RU",
+        "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);"
+      },
+      "Add script": [
+        "Добавить скрипт"
+      ],
+      "Banner message": [
+        "Текст баннера"
+      ],
+      "Cookie banner": [
+        "Баннер cookies"
+      ],
+      "Could not load settings.": [
+        "Не удалось загрузить настройки."
+      ],
+      "Could not save scripts.": [
+        "Не удалось сохранить скрипты."
+      ],
+      "Could not save settings.": [
+        "Не удалось сохранить настройки."
+      ],
+      "Description": [
+        "Описание"
+      ],
+      "JavaScript code": [
+        "Код JavaScript"
+      ],
+      "Name": [
+        "Название"
+      ],
+      "New script": [
+        "Новый скрипт"
+      ],
+      "Optional scripts": [
+        "Необязательные скрипты"
+      ],
+      "Paste JavaScript without HTML script tags. It runs after the visitor accepts optional cookies.": [
+        "Вставьте JavaScript без тегов <script>. Код выполнится после согласия посетителя."
+      ],
+      "Remove script": [
+        "Удалить скрипт"
+      ],
+      "Save scripts": [
+        "Сохранить скрипты"
+      ],
+      "Save settings": [
+        "Сохранить настройки"
+      ],
+      "Scripts saved.": [
+        "Скрипты сохранены."
+      ],
+      "Settings saved.": [
+        "Настройки сохранены."
+      ]
+    }
+  }
+}

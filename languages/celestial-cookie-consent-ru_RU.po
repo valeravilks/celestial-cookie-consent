@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Celestial Cookie Consent\n"
+"PO-Revision-Date: 2026-11-24 00:00+0000\n"
+"Last-Translator: Celestial Cookie Consent\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#: celestial-cookie-consent.php
+msgid "Accept all"
+msgstr "Принять все"
+
+#: src/index.js
+msgid "Add script"
+msgstr "Добавить скрипт"
+
+#: celestial-cookie-consent.php
+msgid "Always active"
+msgstr "Всегда включены"
+
+#: src/index.js
+msgid "Banner message"
+msgstr "Текст баннера"
+
+#: celestial-cookie-consent.php
+msgid "Build the admin assets with npm run build."
+msgstr "Соберите файлы страницы настроек командой npm run build."
+
+#: celestial-cookie-consent.php
+msgid "Choose whether to allow optional cookies."
+msgstr "Выберите, разрешить ли необязательные cookies."
+
+#: celestial-cookie-consent.php
+msgid "Choose which optional scripts this site can run."
+msgstr "Выберите, какие необязательные скрипты может запускать этот сайт."
+
+#: celestial-cookie-consent.php
+msgid "Close preferences"
+msgstr "Закрыть настройки"
+
+#: celestial-cookie-consent.php
+msgid "Cookie Consent"
+msgstr "Согласие на cookies"
+
+#: src/index.js
+msgid "Cookie banner"
+msgstr "Баннер cookies"
+
+#: celestial-cookie-consent.php
+msgid "Cookie preferences"
+msgstr "Настройки cookies"
+
+#: celestial-cookie-consent.php
+msgid "Cookie settings"
+msgstr "Настройки cookies"
+
+#: src/index.js
+msgid "Could not load settings."
+msgstr "Не удалось загрузить настройки."
+
+#: src/index.js
+msgid "Could not save scripts."
+msgstr "Не удалось сохранить скрипты."
+
+#: src/index.js
+msgid "Could not save settings."
+msgstr "Не удалось сохранить настройки."
+
+#: celestial-cookie-consent.php
+msgid "Customize"
+msgstr "Настроить"
+
+#: src/index.js
+msgid "Description"
+msgstr "Описание"
+
+#: src/index.js
+msgid "JavaScript code"
+msgstr "Код JavaScript"
+
+#: src/index.js
+msgid "Name"
+msgstr "Название"
+
+#: celestial-cookie-consent.php
+msgid "Necessary"
+msgstr "Необходимые cookies"
+
+#: src/index.js
+msgid "New script"
+msgstr "Новый скрипт"
+
+#: src/index.js
+msgid "Optional scripts"
+msgstr "Необязательные скрипты"
+
+#: src/index.js
+msgid "Paste JavaScript without HTML script tags. It runs after the visitor accepts optional cookies."
+msgstr "Вставьте JavaScript без тегов <script>. Код выполнится после согласия посетителя."
+
+#: celestial-cookie-consent.php
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
+
+#: celestial-cookie-consent.php
+msgid "Reject all"
+msgstr "Отклонить все"
+
+#: src/index.js
+msgid "Remove script"
+msgstr "Удалить скрипт"
+
+#: celestial-cookie-consent.php
+msgid "Reset consent"
+msgstr "Сбросить согласие"
+
+#: celestial-cookie-consent.php
+msgid "Save preferences"
+msgstr "Сохранить выбор"
+
+#: src/index.js
+msgid "Save scripts"
+msgstr "Сохранить скрипты"
+
+#: src/index.js
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
+#: src/index.js
+msgid "Scripts saved."
+msgstr "Скрипты сохранены."
+
+#: src/index.js
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: celestial-cookie-consent.php
+msgid "The consent cookie remembers your preferences."
+msgstr "Эта cookie запоминает ваш выбор."
+
+#: celestial-cookie-consent.php
+msgid "Your cookie choices"
+msgstr "Ваш выбор cookies"
+
+#: celestial-cookie-consent.php
+msgid "You are not allowed to edit scripts."
+msgstr "У вас нет прав на редактирование скриптов."

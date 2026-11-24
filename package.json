@@ -1,0 +1,13 @@
+{
+  "name": "celestial-cookie-consent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build",
+    "env": "wp-env"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^12.2.0",
+    "@wordpress/scripts": "^37.2.0"
+  }
+}
