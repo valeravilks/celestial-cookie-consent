@@ -14,6 +14,19 @@
 
 Список изменений по версиям ведётся в [CHANGELOG.md](CHANGELOG.md).
 
+## Публикация ZIP на GitHub
+
+Обновите версии в заголовке плагина, `package.json` и `package-lock.json`, добавьте соответствующую запись в CHANGELOG и отправьте коммит на GitHub. Затем поставьте тег на этот коммит и отправьте его. Например, для версии 1.0.0:
+
+```sh
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+GitHub Actions соберёт плагин и добавит `celestial-cookie-consent-1.0.0.zip` в **Assets** релиза. Этот ZIP можно загрузить через **Плагины → Добавить плагин → Загрузить плагин**.
+
+Чтобы собрать ZIP локально, выполните `npm ci`, затем `bash scripts/package-release.sh v1.0.0 /tmp/celestial-cookie-consent-release`.
+
 ## Локальный запуск
 
 Запустите Docker и выполните:
