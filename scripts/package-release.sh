@@ -45,7 +45,7 @@ for file in build/block/banner/{block.json,render.php,index.js,index.asset.php,v
 done
 
 mkdir -p "$staging/$plugin" "$output_dir"
-cp -R celestial-cookie-consent.php README.md CHANGELOG.md theme.example.json languages build "$staging/$plugin/"
+cp -R celestial-cookie-consent.php README.md CHANGELOG.md theme.example.json languages includes build "$staging/$plugin/"
 (
 	cd "$staging"
 	zip -qr "$archive" "$plugin"

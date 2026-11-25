@@ -2,13 +2,17 @@
 /**
  * Plugin Name: Celestial Cookie Consent
  * Description: Lets visitors set their cookie preferences.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: celestial-cookie-consent
  * Domain Path: /languages
  * Requires at least: 6.5
+ * Requires PHP: 7.4
+ * Update URI: https://github.com/valeravilks/celestial-cookie-consent
  */
 
 defined( 'ABSPATH' ) || exit;
+
+require_once __DIR__ . '/includes/updates.php';
 
 function celestial_cookie_consent_load_textdomain() {
 	load_plugin_textdomain( 'celestial-cookie-consent', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
@@ -138,6 +142,33 @@ function celestial_cookie_consent_register_banner_block() {
 	);
 }
 add_action( 'init', 'celestial_cookie_consent_register_banner_block' );
+
+function celestial_cookie_consent_schedule_banner() {
+	if ( is_feed() || ! WP_Block_Type_Registry::get_instance()->is_registered( 'celestial-cookie-consent/banner' ) ) {
+		return;
+	}
+
+	$render_banner = static function () {
+		return do_blocks( '<!-- wp:celestial-cookie-consent/banner /-->' );
+	};
+
+	if ( wp_is_block_theme() ) {
+		// Block themes render their template before wp_head, which prints the import map.
+		$banner = $render_banner();
+		$render_banner = static function () use ( $banner ) {
+			return $banner;
+		};
+	}
+
+	add_action(
+		'wp_footer',
+		static function () use ( $render_banner ) {
+			echo $render_banner(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- The block escapes its markup when rendered.
+		},
+		5
+	);
+}
+add_action( 'wp_enqueue_scripts', 'celestial_cookie_consent_schedule_banner' );
 
 function celestial_cookie_consent_default_block_styles( $theme_json ) {
 	return $theme_json->update_with(
